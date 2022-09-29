@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -36,3 +39,67 @@
     transform: rotate(360deg);
   }
 }
+
+@font-face {
+  font-family: "BIREVA";
+  src: url('./fonts/BIREVA.otf');
+  
+}
+
+@font-face {
+  font-family: "X_BAMBI";
+  src: url('./fonts/X_BAMBI.TTF');
+  
+}
+
+@font-face {
+  font-family: "Spaced TTF";
+  src: url('./fonts/Spaced\ TTF.ttf');
+  
+}
+
+
+
+
+
+
+
+/* Navbarnya */
+.namenya{
+  padding-right: 900px;
+  font-family: 'BIREVA', sans-serif !important;
+  
+}
+/* End Navbarnya */
+
+/* Regis */
+
+.input{
+  margin: 200px;
+}
+
+.judulhalaman{
+  margin-top: 50px;
+  margin-bottom: -120px;
+  font-family: 'X_BAMBI', sans-serif !important;
+}
+
+.tombol{
+  margin-top: 30px;
+}
+
+
+/* END Regis */
+
+
+/* Profil */
+.buttoncard{
+
+  font-family: 'Spaced TTF', sans-serif !important;
+}
+.buttoncard:hover{
+  box-shadow : 0px 0px 10px #dfe2e7d8 !important;
+
+}
+
+/* END Profil */
