@@ -1,6 +1,7 @@
 // import React from "react";
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import {Link} from "react-router-dom";
 
 export const Login = () =>{
     return(
@@ -23,6 +24,8 @@ export const Login = () =>{
             Login
           </Button>
         </Form>
+        <p>Belum punya akun? Ayo</p>
+        <Link to="/">Registrasi</Link>
         </div>
     )
     
